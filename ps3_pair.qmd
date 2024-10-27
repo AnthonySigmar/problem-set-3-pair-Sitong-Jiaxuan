@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Sitong Guo and Jiaxuan Liu  "
+author: "Sitong Guo ， Jiaxuan Liu"
 format: 
   pdf:
     keep-tex: true
