@@ -1,6 +1,6 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Sitong Guo"
+author: "Sitong Guo ， Jiaxuan Liu"
 format: 
   pdf:
     keep-tex: true
@@ -21,19 +21,15 @@ include-before-body:
 ```{python}
 import pandas as pd
 import numpy as np
-import altair as alt
+
 np.random.seed(42)
 data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
-    head = df.head()
-    chart = alt.Chart(df).mark_bar().encode(
-        alt.X('Random Numbers', bin=True),
-        y='count()'
-    ).properties()
-    return [head, chart]
+    head_output = df.head()
+    describe_output = df.describe()
+    return [head_output, describe_output]
 
-result = preview_data(data)
-print(result[0])
-result[1]
+
+preview_data(data)
 ```
