@@ -1,6 +1,5 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "SiTong Guo and Jiaxuan Liu" 
 author: "Sitong Guo ， Jiaxuan Liu"
 format: 
   pdf:
@@ -22,7 +21,7 @@ include-before-body:
 ```{python}
 import pandas as pd
 import numpy as np
-import altair as alt
+
 np.random.seed(42)
 data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
