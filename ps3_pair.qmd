@@ -26,10 +26,14 @@ np.random.seed(42)
 data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
-    head_output = df.head()
-    describe_output = df.describe()
-    return [head_output, describe_output]
+    head = df.head()
+    chart = alt.Chart(df).mark_bar().encode(
+        alt.X('Random Numbers', bin=True),
+        y='count()'
+    ).properties()
+    return [head, chart]
 
-
-preview_data(data)
+result = preview_data(data)
+print(result[0])
+result[1]
 ```
