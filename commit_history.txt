@@ -1,0 +1,14 @@
+cabb5eb - SitongGuo, 6 minutes ago : Merge branch 'histogram'
+d9de29d - 351316Dd, 16 minutes ago : Resolved merge conflict in ps3_pair.qmd
+56d96af - Archaon, 40 minutes ago : Merge pull request #4 from AnthonySigmar/describe
+f6e96bd - 351316Dd, 43 minutes ago : Modified preview_data to return head and describe as a list
+a3eda2e - Archaon, 64 minutes ago : Merge pull request #3 from AnthonySigmar/merge_conflict_name_2
+9f0dbfe - 351316Dd, 66 minutes ago : Update ps3_pair.qmd
+64a2fc6 - Archaon, 78 minutes ago : Merge pull request #2 from AnthonySigmar/merge_conflict_name_2
+a610f24 - 351316Dd, 2 hours ago : Replace Dema Therese with my name
+bb3c055 - 351316Dd, 2 hours ago : Update ps3_pair.qmd
+51ccbf4 - 351316Dd, 2 hours ago : Replace 'Dema Therese' with [Your Name] in ps3_pair.qmd
+0938c28 - SitongGuo, 24 hours ago : Second rounf of practice ib.
+226b2cc - SitongGuo, 25 hours ago : replaced the name with mine
+0e0dd07 - SitongGuo, 25 hours ago : added ps3_pair.qmd
+c8160c7 - Archaon, 25 hours ago : Initial commit
