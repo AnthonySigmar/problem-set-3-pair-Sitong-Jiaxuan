@@ -28,6 +28,7 @@ data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
     head = df.head()
+    
     chart = alt.Chart(df).mark_bar().encode(
         alt.X('Random Numbers', bin=True),
         y='count()'
