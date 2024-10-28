@@ -32,8 +32,8 @@ def preview_data(df):
     return [head_output, describe_output]
 
 result = preview_data(data)
-print("Head of the DataFrame:\n", result[0])
-print("\nDescription of the DataFrame:\n", result[1])
+print(result[0])
+print(result[1])
 
 preview_data(data)
 
