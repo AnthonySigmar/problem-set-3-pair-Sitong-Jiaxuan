@@ -30,6 +30,7 @@ def preview_data(df):
     head = df.head()
     describe_output = df.describe()
     
+    
     chart = alt.Chart(df).mark_bar().encode(
         alt.X('Random Numbers', bin=True),
         y='count()'
@@ -37,5 +38,5 @@ def preview_data(df):
     return [head, describe_output, chart]
 
 result = preview_data(data)
-print(result[2])
+print(result)
 ```
