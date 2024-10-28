@@ -35,7 +35,7 @@ def preview_data(df):
         alt.X('Random Numbers', bin=True),
         y='count()'
     ).properties()
-    return [head, describe_output, chart]
+    return [headnidie, describe_output, chart]
 
 result = preview_data(data)
 print(result)
